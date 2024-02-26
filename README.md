@@ -5,8 +5,11 @@ El trabajo presente contiene el código para aplicar 4 algoritmos de aprendizaje
 El objetivo es predecir si una masa mamaria es maligna o benigna basándose en los datos proporcionados en la muestras, área y textura entre otro componente obtenido para el dataset trabajado.
 
 Conjunto de datos
+
 El conjunto de datos de cáncer de mama contiene 569 instancias con 31 características numéricas. 
+
 Conclusión
+
 Se proporciona un estudio y análisis del cáncer de mama en la región de Wisconsin donde se evalúa y compara mediante diferentes modelos de aprendizaje los falsos positivos y negativos que se encontró y una precisión y predicción de los resultados obtenidos.
 1.	Los resultados obtenidos con Random Forest nos da una precisión de 0.9580 el cual es un acierto a los casos de cáncer detectado por área y textura.Mientras tanto en el modelo KNN se procede a ver que el entrenamiento dio como resultado 0.9780 y el test de 0.9649.
 2.	KNN se implementa con k=5 mientras que ANN tiene 2 capas ocultas de 16 neuronas cada una. Estas cosas elementales están sujetas a cambios.
